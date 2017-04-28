@@ -1,4 +1,5 @@
-install: make get-deps
-script: make test
+install: make dep
+sudo: required
 language: c
 compiler: gcc
+script: make test
